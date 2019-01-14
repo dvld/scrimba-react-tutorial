@@ -1,13 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-// jsx
+import App from './components/App'
 ReactDOM.render(
-  <ul>
-    <li>apples</li>
-    <li>bananas</li>
-    <li>grapes</li>
-  </ul>,
+  <App />,
   document.getElementById('root')
-  );
+)
 
