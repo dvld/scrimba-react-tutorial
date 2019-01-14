@@ -2,4 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // jsx
-ReactDOM.render(<div><h1>Hello World!</h1><p>this is a paragraph</p></div>, document.getElementById('root'));
+ReactDOM.render(
+  <ul>
+    <li>apples</li>
+    <li>bananas</li>
+    <li>grapes</li>
+  </ul>,
+  document.getElementById('root')
+  );
+
